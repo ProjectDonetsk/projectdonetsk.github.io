@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Open Source Beats Clout</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Rubik:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f0f;
+      color: #f1f1f1;
+      font-family: 'Rubik', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #00e676;
+      animation: popin 0.8s ease-out;
+    }
+
+    h2 {
+      color: #ff5252;
+      font-weight: 400;
+      margin-bottom: 20px;
+      animation: fadeIn 1.2s ease;
+    }
+
+    .icon {
+      font-size: 4rem;
+      margin-top: 1rem;
+      color: #ffc107;
+      animation: bounce 2s infinite;
+    }
+
+    .card {
+      background: #1c1c1c;
+      border-radius: 16px;
+      padding: 2rem;
+      max-width: 700px;
+      margin: 1rem;
+      box-shadow: 0 0 20px rgba(255, 87, 34, 0.2);
+      animation: fadeInUp 1.2s ease-out;
+    }
+
+    .card p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .card a {
+      color: #00e676;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+      animation: fadeIn 2s ease;
+    }
+
+    .discord {
+      margin-top: 1rem;
+      display: inline-block;
+      background-color: #5865F2;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+    }
+
+    .discord:hover {
+      background-color: #4752c4;
+    }
+
+    @keyframes popin {
+      0% { transform: scale(0.5); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      0% { transform: translateY(30px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+  </style>
+</head>
+<body>
+
+  <span class="material-icons-outlined icon">lock_open</span>
+
+  <h1>Open Source Wins</h1>
+  <h2>Clout doesn’t compile.</h2>
+
+  <div class="card">
+    <p>
+      To the gatekeepers at <strong>Project Mron</strong> and <strong>Project Donetsk</strong>:
+    </p>
+    <p>
+      You tried to sell access, hoard tools, and farm likes instead of sharing knowledge.
+      But while you flexed on Twitter, the community built something better — together.
+    </p>
+    <p>
+      <strong>You can’t put a price tag on collaboration.</strong>
+    </p>
+  </div>
+
+  <div class="card">
+    <p>
+      🚀 Real modding lives here:
+    </p>
+    <p>
+      <a href="https://github.com/xifil/iw8-mod" target="_blank">iw8-mod</a> — Modern Warfare 2019<br />
+      <a href="https://github.com/xifil/t9-mod" target="_blank">t9-mod</a> — Black Ops Cold War
+    </p>
+    <p>
+      No paywalls. No clout. Just code.
+    </p>
+  </div>
+
+  <a class="discord" href="https://discord.gg/JgUGzTgrQQ" target="_blank">
+    Join the Resistance on Discord
+  </a>
+
+  <div class="footer">
+    💀 You tried to lock the door.  
+    🔓 We removed it from the hinges.
+  </div>
+
+</body>
+</html>
